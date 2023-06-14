@@ -1,0 +1,35 @@
+/*
+ * header
+ */
+ 
+ .hero {
+  background: url('./hero.jpg');
+}
+ 
+.hero__text {
+  align-self: center;
+  max-width: 600px;
+  padding-bottom: 3em;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.hero__title {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: xx-large;
+  min-width: 45px;
+  min-height: 45px;
+}
+ 
+.hero__subtitle {
+  color: var(--primary-color);
+  margin: 16px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 1.36em;
+  min-width: 45px;
+  min-height: 45px;
+}
